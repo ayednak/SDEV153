@@ -45,6 +45,9 @@ section p {
 
 nav {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 nav ul {
   text-align: center;
@@ -52,11 +55,16 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav li {
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 15px;
   font-size: 20px;
 }
