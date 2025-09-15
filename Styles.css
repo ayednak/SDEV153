@@ -1,3 +1,7 @@
+body {
+    background-color: purple;
+}
+
 header h1 {
     color: white;
     font-size: 60px;
@@ -16,4 +20,5 @@ nav ul {
 nav li {
   margin: 0 15px;
   font-size: 20px;
+
 }
