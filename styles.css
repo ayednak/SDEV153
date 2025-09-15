@@ -62,6 +62,8 @@ nav ul li a:hover {
   border-radius: 10px;
   text-align: center;
   background-color: lightslategray;
+  min-height: 400px;
+  max-height: 400px;
 }
 
 .card:hover {
@@ -69,15 +71,14 @@ nav ul li a:hover {
 }
 
 .card img {
-  border-radius: 10px 10px 0 0;
-  max-height: 250px; 
+  border-radius: 10px 10px 0 0; 
 }
 
 .container {
   padding: 2px 16px;
 }
 
-.container:hover {
+.container h4:hover {
   background-color: white;
   color: black;
 }
