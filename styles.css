@@ -3,9 +3,15 @@ body {
     font-family: lato, arial, sans-serif;
 }
 
+header {
+  background-image: url("SDEV153/Engage.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
 header h1 {
     font-size: 60px;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -15,9 +21,9 @@ section h1 {
     color: white;
 }
 
-header h2 {
-    font-size: 40px;
-    text-align: center;
+header h3 {
+    font-size: 20px;
+    text-align: left;
     color: white;
 }
 
@@ -55,6 +61,7 @@ nav ul li a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
   }
 
 nav ul li a:hover {
