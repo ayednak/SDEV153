@@ -3,7 +3,6 @@ body {
 }
 
 header h1 {
-    
     font-size: 60px;
     text-align: center;
     font-family: lato, arial, sans-serif;
@@ -11,7 +10,6 @@ header h1 {
 }
 
 section h1 {
-    
     font-size: 40px;
     text-align: center;
     font-family: lato, arial, sans-serif;
@@ -19,7 +17,6 @@ section h1 {
 }
 
 header h2 {
-    
     font-size: 40px;
     text-align: center;
     font-family: lato, arial, sans-serif;
@@ -27,44 +24,36 @@ header h2 {
 }
 
 section h2 {
-    
     font-size: 40px;
     text-align: center;
     font-family: lato, arial, sans-serif;
     color: white;
-
   }
 
 section p {
-    
     font-size: 20px;
     text-align: center;
     font-family: lato, arial, sans-serif;
     color: white;
 }
 
-nav {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-nav ul {
-  text-align: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
 }
 
-nav li {
-  color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 15px;
-  font-size: 20px;
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: lato, arial, sans-serif;}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
 }
