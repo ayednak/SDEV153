@@ -33,12 +33,18 @@ section p {
     color: white;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: lightslategray;
     border: white solid 4px;
+    border-radius: 4px;
     max-width: 900px;
     display: flex;
     justify-content: center;
