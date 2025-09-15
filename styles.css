@@ -43,6 +43,9 @@ section p {
     color: white;
 }
 
+nav {
+  text-align: center;
+}
 nav ul {
   text-align: center;
   list-style: none;
