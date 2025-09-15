@@ -1,39 +1,35 @@
 body {
     background-color: black;
+    font-family: lato, arial, sans-serif;
 }
 
 header h1 {
     font-size: 60px;
     text-align: center;
-    font-family: lato, arial, sans-serif;
     color: white;
 }
 
 section h1 {
     font-size: 40px;
     text-align: center;
-    font-family: lato, arial, sans-serif;
     color: white;
 }
 
 header h2 {
     font-size: 40px;
     text-align: center;
-    font-family: lato, arial, sans-serif;
     color: white;
 }
 
 section h2 {
     font-size: 40px;
     text-align: center;
-    font-family: lato, arial, sans-serif;
     color: white;
   }
 
 section p {
     font-size: 20px;
     text-align: center;
-    font-family: lato, arial, sans-serif;
     color: white;
 }
 
@@ -51,7 +47,7 @@ nav ul li a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: lato, arial, sans-serif;}
+  }
 
 nav ul li a:hover {
     background-color: white;
@@ -66,7 +62,6 @@ nav ul li a:hover {
   border-radius: 5px;
   text-align: center;
   background-color: white;
-  font-family: lato, arial, sans-serif;
 }
 
 .card:hover {
@@ -78,7 +73,6 @@ nav ul li a:hover {
 }
 .container {
   padding: 2px 16px;
-  font-family: lato, arial, sans-serif;
 }
 
 .card-grid {
@@ -87,4 +81,3 @@ nav ul li a:hover {
     gap: 20px;
     padding: 20px;
 }
-
