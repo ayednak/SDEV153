@@ -7,13 +7,16 @@ header {
   background-image: url("Engage.jpg");
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  min-height: 600px;
+  margin-top: 0;
 }
 header h1 {
     font-size: 60px;
     text-align: left;
     color: white;
     top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
 }
 
 section h1 {
@@ -26,6 +29,8 @@ header h3 {
     font-size: 20px;
     text-align: left;
     color: white;
+    margin-top: 0;
+    margin-left: 20px;
 }
 
 section h2 {
