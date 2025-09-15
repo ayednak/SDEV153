@@ -70,9 +70,16 @@ nav ul li a:hover {
 
 .card img {
   border-radius: 10px 10px 0 0;
+  max-height: 250px; 
 }
+
 .container {
   padding: 2px 16px;
+}
+
+.container:hover {
+  background-color: white;
+  color: black;
 }
 
 .card-grid {
