@@ -10,7 +10,7 @@ body {
     background-position: center;
     background-color: black;
     border: solid cyan;
-    border-radius: 0vw, 5vw;
+    border-radius: 0vw 5vw;
     margin: 0vw;
     padding: 0vw;
 }
