@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: lato, arial, sans-serif;
+    margin: 1vw;
 }
 
 .background {
@@ -8,38 +9,43 @@ body {
     background-size: cover;
     background-position: center;
     background-color: black;
-    height:86.3vh
-    
+    height:86vh;
+    margin: 0vw;
+    padding: 0vw;
 }
+
 header {
-  height: 10vh;
-  margin-top: 0;
+  min-height: 10vh;
+  margin: 0vw;
+  padding: 0vw;
+  max-width: 98vw;
 }
 
 .flex-container {
   display: flex;
   flex-direction: row;
+  min-height: 10vh;
+  max-width: 98vw;
+  margin: 0vw;
+  padding: 0vw;
 }
 
 header h1 {
-    font-size: 3vw;
+    font-size: clamp(1rem, 3vw, 4rem);
     text-align: left;
     color: white;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0vw;
+    margin: 0vw;
     background-color: black;
-    padding: 0vw 1vw 0vw 1vw;
+    padding: 0vw;
 }
 
 header h3 {
-    font-size: 1.25vw;
+    font-size: clamp(.75rem, 1.45vw, 3rem);
     text-align: left;
     color: white;
     background-color: black;
-    margin-top: 0;
-    margin-left: 0vw;
-    padding: 0vw 1vw 1vw 1vw;
+    margin: 0vw;
+    padding: 0vw;
 }
 
 nav {
