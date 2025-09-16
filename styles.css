@@ -11,7 +11,7 @@ body {
     background-color: black;
     border: solid cyan;
     border-radius: 0vw 5vw;
-    min-height: 30vh;
+    min-height: 25vh;
     margin: 0vw;
     padding: 0vw;
 }
@@ -96,9 +96,9 @@ nav ul li a:hover {
 }
 
 .card {
-  box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,1);
+  box-shadow: 0 .25rem .5rem 0 rgba(255,255,255,1);
   transition: 0.3s;
-  border: .25rem solid white;
+  border: solid cyan;
   padding: 1rem;
   border-radius: .625rem;
   text-align: center;
