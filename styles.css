@@ -88,7 +88,7 @@ nav ul li a:hover {
 }
 
 .card {
-  box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,0.2);
+  box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,1);
   transition: 0.3s;
   border: .25rem solid white;
   padding: 1rem;
@@ -99,8 +99,7 @@ nav ul li a:hover {
   max-height: 18.75rem;
 }
 
-.card img {
-  border-radius: .625rem .625rem 0 0; 
+.card img { 
   max-height: 15.625rem;
 }
 
@@ -110,7 +109,7 @@ nav ul li a:hover {
   border-radius: .625rem .625rem;
 }
 
-a {
+.background a {
     text-decoration: none;
   }
 .card:hover {
