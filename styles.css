@@ -9,7 +9,8 @@ body {
     background-size: cover;
     background-position: center;
     background-color: black;
-    height:86vh;
+    border: solid cyan;
+    border-radius: 0vw, 5vw;
     margin: 0vw;
     padding: 0vw;
 }
@@ -34,8 +35,8 @@ header h1 {
     font-size: clamp(1rem, 3vw, 4rem);
     text-align: left;
     color: white;
-    margin: 0vw;
     background-color: black;
+    margin: 0vw;
     padding: 0vw;
 }
 
