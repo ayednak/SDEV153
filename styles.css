@@ -150,5 +150,40 @@ section p {
 }
 
 .contact {
-  text-align:center;
+ border: solid cyan;
+    border-radius: 0vw 5vw;
+    width: 20vw;
+  text-align: center;
+  margin: auto;  
+
+    p {
+        border: solid white;
+        border-radius: 1vw;
+        width: 14vw;
+        margin: auto;
+        margin-bottom: 1vw;
+        padding: .25vw
+            
+    }
+    
+    p:hover {
+        box-shadow: 0 .25rem .25rem 0 cyan;
+    }
+   
+    a {
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin: auto;
+        width: 14vw;
+    
+        img {
+            margin: 1vw 0vw;
+            width: 14vw;
+        }    
+    }
+    
+    a:hover {
+        color: cyan;    
+    }
 }
