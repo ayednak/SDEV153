@@ -11,8 +11,7 @@ body {
     
 }
 header {
-  
-  min-height: 60vh;
+  height: 10vh;
   margin-top: 0;
 }
 
@@ -45,7 +44,7 @@ header h3 {
 nav {
     display: flex;
     justify-content: center;
-    top: 0;
+    margin-top: 1vw;
     margin-left: 12vw;
 }
 
@@ -61,7 +60,7 @@ nav ul li a {
     display: flex;
     background-color: black;
     color: white;
-    border: solid black .2vw;
+    border: solid white .2vw;
     padding: .25vw .5vw;
     border-radius: 1vw;
     margin-right: 5vw;
