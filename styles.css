@@ -7,7 +7,7 @@ header {
   background-image: url("Engage.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 65vh;
+  min-height: 60vh;
   margin-top: 0;
 }
 
@@ -37,7 +37,7 @@ nav {
     display: flex;
     justify-content: center;
     top: 0;
-    margin-left: 13vw;
+    margin-left: 12vw;
 }
 
 nav ul{
@@ -52,10 +52,12 @@ nav ul li a {
     display: flex;
     background-color: lightslategray;
     color: black;
-    border: solid black .1vw;
+    border: solid black .2vw;
     padding: .25vw .5vw;
     border-radius: 1vw;
     margin-right: 5vw;
+    text-decoration: none;
+    font-weight: bold;
   }
 
 nav ul li a:hover {
@@ -70,6 +72,9 @@ nav ul li a:hover {
     max-width:56.25rem;
     margin: 0 auto;
     margin-top: 1.5rem;
+    a {
+        text-decoration: none;
+    }
 }
 
 .card {
@@ -95,6 +100,9 @@ nav ul li a:hover {
   border-radius: .625rem .625rem;
 }
 
+a {
+    text-decoration: none;
+  }
 .card:hover {
   box-shadow: 0 .5rem 1rem 0 white;
   transform: translateY(-1vw);
