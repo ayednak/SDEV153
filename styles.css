@@ -11,6 +11,7 @@ body {
     background-color: black;
     border: solid cyan;
     border-radius: 0vw 5vw;
+    min-height: 30vh;
     margin: 0vw;
     padding: 0vw;
 }
@@ -86,7 +87,7 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(15.625rem, 100%), 1fr)); 
     gap: 1.5rem;
-    max-width:56.25rem;
+    max-width:98vw;
     margin: 0 auto;
     margin-top: 1.5rem;
     a {
