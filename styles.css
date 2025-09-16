@@ -3,10 +3,15 @@ body {
     font-family: lato, arial, sans-serif;
 }
 
+.background {
+    background-image: url("Engage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    
+}
 header {
-  background-image: url("Engage.jpg");
-  background-size: cover;
-  background-position: center;
+  
   min-height: 60vh;
   margin-top: 0;
 }
@@ -34,7 +39,6 @@ header h3 {
     background-color: black;
     margin-top: 0;
     margin-left: 0vw;
-    max-width: 18.45vw;
     padding: 0vw 1vw 1vw 1vw;
 }
 
@@ -56,7 +60,7 @@ nav ul{
 nav ul li a {
     display: flex;
     background-color: black;
-    color: cyan;
+    color: white;
     border: solid black .2vw;
     padding: .25vw .5vw;
     border-radius: 1vw;
@@ -67,7 +71,8 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: black;
-    color: white;
+    color: cyan;
+    box-shadow: 0 .25rem .25rem 0 cyan;
 }
 
 .card-grid {
