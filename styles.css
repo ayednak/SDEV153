@@ -115,6 +115,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   border-radius: .625rem .625rem;
+  margin: -1vw 0vw 0vw 0vw;
 }
 
 .background a {
