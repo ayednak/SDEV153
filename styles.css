@@ -22,15 +22,20 @@ header h1 {
     color: white;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 1vw;
+    margin-left: 0vw;
+    background-color: black;
+    padding: 0vw 1vw 0vw 1vw;
 }
 
 header h3 {
     font-size: 1.25vw;
     text-align: left;
     color: white;
+    background-color: black;
     margin-top: 0;
-    margin-left: 1vw;
+    margin-left: 0vw;
+    max-width: 18.45vw;
+    padding: 0vw 1vw 1vw 1vw;
 }
 
 nav {
@@ -50,8 +55,8 @@ nav ul{
 
 nav ul li a {
     display: flex;
-    background-color: lightslategray;
-    color: black;
+    background-color: black;
+    color: cyan;
     border: solid black .2vw;
     padding: .25vw .5vw;
     border-radius: 1vw;
@@ -104,7 +109,7 @@ a {
     text-decoration: none;
   }
 .card:hover {
-  box-shadow: 0 .5rem 1rem 0 white;
+  box-shadow: 0 .5rem 1rem 0 cyan;
   transform: translateY(-1vw);
     .container {
         background-color: white;
