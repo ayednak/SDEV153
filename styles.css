@@ -155,8 +155,12 @@ section p {
     width: 20vw;
   text-align: center;
   margin: auto;  
-
+    h1 {
+        font-size:clamp(1rem, 3vw, 4rem)
+    }
     p {
+        font-size:clamp(.25rem, 1.2vw, 3rem);
+        display: block;
         border: solid white;
         border-radius: 1vw;
         width: 14vw;
@@ -167,15 +171,16 @@ section p {
     }
     
     p:hover {
-        box-shadow: 0 .25rem .25rem 0 cyan;
+        box-shadow: 0 .1rem .25rem 0 cyan;
     }
-   
+    
     a {
         text-decoration: none;
         color: white;
         display: block;
         margin: auto;
         width: 14vw;
+        font-size:clamp(.25rem, 1.2vw, 3rem);
     
         img {
             margin: 1vw 0vw;
