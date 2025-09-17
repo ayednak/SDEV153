@@ -71,24 +71,25 @@ body {
     }
 }
 
-.top-image-banner {
-  background-image: url("Engage.jpg");
-  background-size: cover;
-  background-position: center;
-  background-color: black;
-  border: solid cyan;
-  border-radius: 0vw 5vw;
-  min-height: 45vh;
-  margin: 0vw;
-  padding: 0vw;
-
-    a {
-      text-decoration: none;
-    }
-}
-
 .index{
   background: black;
+  
+    .top-image-banner {
+      background-image: url("Engage.jpg");
+      background-size: cover;
+      background-position: center;
+      background-color: black;
+      border: solid cyan;
+      border-radius: 0vw 5vw;
+      min-height: 45vh;
+      margin: 0vw;
+      padding: 0vw;
+
+        a {
+          text-decoration: none;
+        }
+    }
+
     .card-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(min(15.625rem, 100%), 1fr)); 
@@ -143,11 +144,13 @@ body {
   margin: auto;  
   
     h1 {
+      color: white;
       font-size:clamp(1rem, 3vw, 4rem)
     }
 
     p {
       font-size:clamp(.25rem, 1.2vw, 3rem);
+      color: white;
       display: block;
       border: solid white;
       border-radius: 1vw;
