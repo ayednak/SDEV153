@@ -17,6 +17,8 @@ body {
       background-color: black;
       margin: 0vw;
       padding: 0vw;
+      width: 20vw;
+      text-decoration: none;
       a {
         display:block;
         text-decoration: none;
@@ -31,6 +33,8 @@ body {
       background-color: black;
       margin: 0vw;
       padding: 0vw;
+      width: 20vw;
+      text-decoration: none;
       a{
         display: block;
         text-decoration: none;
