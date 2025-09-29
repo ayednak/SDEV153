@@ -1,7 +1,13 @@
 body {
   background-color: black;
+  color: white;
+  text-decoration: none;
   font-family: lato, arial, sans-serif;
   margin: 1vw;
+  a { 
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .universal-header {
@@ -13,33 +19,17 @@ body {
     h1 {
       font-size: clamp(1rem, 3vw, 4rem);
       text-align: left;
-      color: white;
-      background-color: black;
       margin: 0vw;
       padding: 0vw;
       width: 20vw;
-      text-decoration: none;
-      a {
-        display:block;
-        text-decoration: none;
-        color: white;
-      }
     }
 
     h2 {
       font-size: clamp(.75rem, 1.45vw, 3rem);
       text-align: left;
-      color: white;
-      background-color: black;
       margin: 0vw;
       padding: 0vw;
       width: 20vw;
-      text-decoration: none;
-      a{
-        display: block;
-        text-decoration: none;
-        color: white;
-      }  
     }
 
     .flex-container {
