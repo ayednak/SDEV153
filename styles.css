@@ -260,6 +260,20 @@ body {
     font-weight: bold;
     margin-top: 3vh;
   }
+  button {
+    margin-left: 10vw;
+    margin-top: 1vh;
+    color: white;
+    background-color: black;
+    border:solid white;
+    border-radius: 1vw;
+    padding: 0vw 3vw;
+    font-size: clamp(1rem, 1vw + 1rem, 2rem)
+  }
+  button:hover {
+    box-shadow: 0 .25rem .25rem 0 cyan;
+    color: cyan;
+  }
 }
 
 .education {
