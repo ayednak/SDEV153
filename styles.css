@@ -4,6 +4,9 @@ body {
   text-decoration: none;
   font-family: lato, arial, sans-serif;
   margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
   a { 
     color: white;
     text-decoration: none;
@@ -68,6 +71,7 @@ body {
 }
 
 .index{
+  flex-grow:1;
   .top-image-banner {
     display: flex;
     justify-content: center;
@@ -135,6 +139,7 @@ body {
 
 
 .contact {
+  flex-grow:1;
   border: solid cyan;
   border-radius: 0vw 5vw;
   width: 30vw;
@@ -186,6 +191,7 @@ body {
 }
 
 .testimonials {
+  flex-grow:1;
   form {
     display: flex;
     flex-direction: column;
@@ -219,6 +225,7 @@ body {
 }
 
 .education {
+  flex-grow:1;
   table, th, td{
     border: 1px solid cyan;
     border-collapse: collapse;
@@ -228,6 +235,7 @@ body {
 }
 
 .certifications {
+  flex-grow:1;
   h1 {
     color: white;
     font-size: clamp(2rem, 3vw + 1rem, 4rem);
@@ -279,6 +287,8 @@ body {
 }
 
 .about {
+  flex-grow:1;
+  height: 78vh;
   img {
     display: flex;
     margin: auto;
