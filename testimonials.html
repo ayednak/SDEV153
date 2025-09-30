@@ -35,13 +35,16 @@
             <h2>Would you like to share your testimonial?</h2>
         </section>
             <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="message">Your Testimonial:</label>
-                <textarea id="testimonial" name="testimonial" rows="5" cols="30" required></textarea><br><br>
-                <input type="submit" value="Submit">
+                <fieldset>
+                    <legend>Submit a Testimonial</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Your Testimonial:</label>
+                    <textarea id="testimonial" name="testimonial" rows="5" cols="30" required></textarea><br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
             </form>
         <section class="saved-testimonials">
             <h3>Here's what people are saying</h3>
