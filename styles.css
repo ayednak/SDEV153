@@ -204,3 +204,12 @@ body {
     margin-top: 3vh;
   }
 }
+
+.education {
+  table, th, td{
+    border: 1px solid cyan;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+  }
+}
