@@ -188,15 +188,18 @@ body {
   display:flex;
   justify-content: space-between;
   height: 5vh;
-  margin: 2vh;
+  margin: 5vh;
   padding: 0;
   max-width: 98vw;
+  border-top: solid cyan 5px;
 
   img {
     height: 5vh;
+    margin-top: 2vh;
   }
 
   p {
     font-weight: bold;
+    margin-top: 3vh;
   }
 }
