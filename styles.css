@@ -211,16 +211,16 @@ body {
   form {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    align-items: center;
+    padding: 1vw; 
     margin: 2vw auto;
     border: solid cyan;
     border-radius: 0vw 5vw;
-    padding: 0vw 2vw 2vw 2vw;
     fieldset {
       align-items: center;
       display: flex;
       flex-direction: column;
-      width: 25vw;
+      margin: 2.5vw;
       input[type="submit"] {
         font-weight: bold;
         font-size: 1rem;
