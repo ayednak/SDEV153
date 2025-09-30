@@ -192,8 +192,12 @@ body {
 
 .testimonials {
   flex-grow:1;
-  display:flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2vw;
+  border: solid cyan;
+  border-radius: 0 5vw;
 
   h1 {
     margin: 0 auto;
@@ -214,8 +218,6 @@ body {
     align-items: center;
     padding: 1vw; 
     margin: 2vw auto;
-    border: solid cyan;
-    border-radius: 0vw 5vw;
     fieldset {
       align-items: center;
       display: flex;
@@ -352,7 +354,12 @@ body {
 
 .about {
   flex-grow:1;
-  height: 78vh;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2vw;
+  border: solid cyan;
+  border-radius: 0 5vw;
   img {
     display: flex;
     margin: auto;
@@ -370,4 +377,43 @@ body {
     margin: auto;
     text-align:center; 
   }
+}
+
+.resume {
+  flex-grow:1;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2vw;
+  border: solid cyan;
+  border-radius: 0 5vw;
+}
+
+.news {
+  flex-grow:1;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2vw;
+  border: solid cyan;
+  border-radius: 0 5vw;
+}
+.projects {
+  flex-grow:1;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2vw;
+  border: solid cyan;
+  border-radius: 0 5vw;
+}
+
+.portfolio {
+  flex-grow:1;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 2vw;
+  border: solid cyan;
+  border-radius: 0 5vw;
 }
