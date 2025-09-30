@@ -276,4 +276,24 @@ body {
       }
     }
   }
-} 
+}
+
+.about {
+  img {
+    display: flex;
+    margin: auto;
+    border-radius: 2vw;
+  }
+  h1 {
+    color: white;
+    font-size: clamp(2rem, 3vw + 1rem, 4rem);
+    margin: auto;
+    text-align:center;
+  }
+  p {
+   color: white;
+    font-size: clamp(1rem, 1.5vw + .5rem, 2rem);
+    margin: auto;
+    text-align:center; 
+  }
+}
