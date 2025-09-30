@@ -44,8 +44,7 @@ body {
     nav {
       display: flex;
       justify-content: center;
-      margin-top: 1vw;
-      margin: -4vw auto;
+
 
       ul{
         list-style-type: none;
