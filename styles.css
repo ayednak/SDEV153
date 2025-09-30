@@ -22,7 +22,6 @@ body {
       margin: 0;
       padding: 0;
       line-height: .8;
-      width: 30vw;
     }
 
     h2 {
@@ -30,12 +29,12 @@ body {
       text-align: left;
       margin: 0;
       padding: 0;
-      width: 30vw;
     }
 
     .flex-container {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       width: 100vw;
       margin: 0;
       padding: 0;
@@ -137,17 +136,21 @@ body {
 .contact {
   border: solid cyan;
   border-radius: 0vw 5vw;
-  width: 20vw;
+  width: 30vw;
   text-align: center;
-  margin: auto;  
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;  
   
     h1 {
       color: white;
-      font-size:clamp(1rem, 3vw, 4rem)
+      font-size: clamp(2rem, 3vw + 1rem, 4rem);
+      margin: 0;
     }
 
     p {
-      font-size:clamp(.25rem, 1.2vw, 3rem);
+      font-size:clamp(1rem, 1.2vw, 3rem);
       color: white;
       display: block;
       border: solid white;
