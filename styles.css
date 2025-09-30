@@ -262,6 +262,12 @@ body {
 
 .education {
   flex-grow:1;
+  h1 {
+    color: white;
+    font-size: clamp(2rem, 3vw + 1rem, 4rem);
+    margin: auto;
+    text-align:center;
+  }
   table, th, td{
     border: 1px solid cyan;
     border-collapse: collapse;
