@@ -192,14 +192,30 @@ body {
 
 .testimonials {
   flex-grow:1;
+  display:flex;
+  flex-direction: column;
+
+  h1 {
+    margin: 0 auto;
+    padding: 0;
+    color:white;
+    font-size: clamp(2rem, 3vw + 1rem, 4rem);
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-size: clamp(1rem, 1.2vw + .5rem, 2rem);
+  }
   form {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 40vw;
     margin: auto;
     border: solid cyan;
     border-radius: 0vw 5vw;
-    padding: 2vw;
+    padding: 4vw;
     
   }
 }
