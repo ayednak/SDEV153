@@ -11,6 +11,9 @@ body {
     color: white;
     text-decoration: none;
   }
+  p {
+    line-height: 1.5;
+  }
 }
 
 .universal-header {
@@ -106,7 +109,7 @@ body {
       transition: 0.3s;
       border: solid cyan;
       border-radius: 0vw 5vw;
-      background-color: lightslategray;
+      background-image: linear-gradient(cyan, white);
       height: 100%;
       img { 
         width: 100%;
@@ -341,7 +344,7 @@ body {
       transition: 0.3s;
       border: solid cyan;
       border-radius: 0vw 5vw;
-      background-color: lightslategray;
+      background-image: linear-gradient(cyan, white);
       height: 100%;
       img { 
         width: 100%;
@@ -420,6 +423,7 @@ body {
   }
   li::marker {
     color: cyan;
+    line-height: 1.5;
   }
 }
 
