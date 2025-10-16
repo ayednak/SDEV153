@@ -17,13 +17,15 @@ function validateAndDisplay(event) {
     }
     else {
        let validatedName = nameToValidate;
-       let validatedMessage = messageToValidate;
-       let validatedEmail = emailToValidate;
+       let validatedTestimonial = messageToValidate;
+       
+       let ouputName = document.getElementById("inputName");
+       let outputTestimonial = document.getElementById("inputTestimonial");
        let defaultTestimonial = document.getElementById("defaultTestimonial");
-       nameToValidate.innerHTML = validatedName;
-       messageToValidate.innerHTML = validatedMessage;
-       emailToValidate.innerHTML = validatedEmail;
-       defaultTestimonial.innerHTML = "";
+      
+       ouputName.textContent = validatedName;
+       outputTestimonial.textContent = validatedTestimonial;
+       defaultTestimonial.textContent = "";
     }
 form.addEventListener("submit", validateAndDisplay);
 }
