@@ -438,4 +438,14 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .most-recent {
+    border: solid cyan;
+    border-radius: 0vw 5vw;
+    h2 {
+      margin-bottom:0vh;
+    }
+    p {
+      margin-top: 0vh;
+    }
+  }
 }
