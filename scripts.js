@@ -40,4 +40,7 @@ function validateAndDisplay(event) {
 }
 let form = document.getElementById("testimonialForm");
 form.addEventListener("submit", validateAndDisplay);
+form.addEventListener("submit", function(event) {
+    this.reset();
+})
 
