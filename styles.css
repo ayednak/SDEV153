@@ -402,6 +402,7 @@ body {
     padding: 0;
     color:white;
     font-size: clamp(2rem, 3vw + 1rem, 4rem);
+    text-align: center;
   }
   h2 {
     margin: 1vw 0 1vw 0;
@@ -414,12 +415,11 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1vw; 
-    margin: 2vw auto;
+    margin: auto;
     fieldset {
       align-items: center;
       display: flex;
       flex-direction: column;
-      margin: 2.5vw;
       input[type="submit"] {
         font-weight: bold;
         font-size: 1rem;
