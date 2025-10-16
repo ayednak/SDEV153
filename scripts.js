@@ -38,7 +38,8 @@ function validateAndDisplay(event) {
        defaultTestimonial.textContent = "";
        alert("Function updated output fields(?)")
     }
-
+}
+alert("Page successfully loaded scripts.js")
 let form = document.getElementById("testimonialForm");
 form.addEventListener("submit", validateAndDisplay);
-}
+
