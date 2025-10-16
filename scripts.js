@@ -23,9 +23,9 @@ function validateAndDisplay(event) {
         let validatedName = nameToValidate;
         let validatedMessage = messageToValidate;
 
-        output.defaultTestimonial.value = ""
-        output.inputName.value = validatedName;
-        output.inputTestimonial.value = validatedMessage;  
+        output.defaultTestimonial.textContent = ""
+        output.inputName.textContent = validatedName;
+        output.inputTestimonial.textContent = validatedMessage;  
     }
 
 form.addEventListener("submit", validateAndDisplay);
