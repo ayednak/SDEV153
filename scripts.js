@@ -20,12 +20,15 @@ function validateAndDisplay(event) {
         return alert("Invalid email address format.");
     }
     else {
+        console.log("Inputs passed validation");
         let validatedName = nameToValidate;
         let validatedMessage = messageToValidate;
+        console.log("Name: " + validatedName + "\nMessage: " + validatedMessage);
 
         output.defaultTestimonial.textContent = ""
         output.inputName.textContent = validatedName;
         output.inputTestimonial.textContent = validatedMessage;  
+    
     }
 
 form.addEventListener("submit", validateAndDisplay);
