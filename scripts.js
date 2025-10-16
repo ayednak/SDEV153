@@ -1,7 +1,7 @@
 let form = document.getElementById("testimonialForm");
-let nameToValidate = form.name.value;
-let messageToValidate = form.testimonial.value;
-let emailToValidate = form.email.value;
+let nameToValidate = document.getElementById("name");
+let messageToValidate = document.getElementById("testimonial");
+let emailToValidate = document.getElementById("email");
 let emailValidationRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     
@@ -27,5 +27,5 @@ function validateAndDisplay(event) {
         form.defaultTestimonial.textContent = "";
     }
 
-form.addEventListener('submit', validateAndDisplay);
+form.addEventListener("submit", validateAndDisplay);
 }
