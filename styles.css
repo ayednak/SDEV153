@@ -440,12 +440,14 @@ body {
   }
   .most-recent {
     border: solid cyan;
-    border-radius: 0vw 5vw;
-    h2 {
+    border-radius: 0vw 2vw;
+    h3 {
       margin-bottom:0vh;
+      margin-left: 1vw;
     }
     p {
       margin-top: 0vh;
+      margin-left: 1vw;
     }
   }
 }
