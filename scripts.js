@@ -1,6 +1,8 @@
 let form = document.getElementById("testimonialForm");
 let output = document.getElementById("saved-testimonials")
-
+console.log(form.name.value);
+console.log(form.testimonal.value);
+console.log(form.email.value);
     
 function validateAndDisplay(event) {
     let nameToValidate = form.name.value;
