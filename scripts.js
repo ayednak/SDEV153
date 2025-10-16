@@ -16,12 +16,14 @@ function validateAndDisplay(event) {
         return alert("Invalid email address format.");
     }
     else {
-        let validatedName = nameToValidate;
-        let validatedMessage = messageToValidate;
-        
-        document.getVariableById("defaultTestimonial").textContent = "";
-        document.getVariableById("inputName").textContent = validatedName;
-        document.getVariableById("inputTestimonial").textContent = validatedMessage; 
+       let validatedName = nameToValidate;
+       let validatedMessage = messageToValidate;
+       let validatedEmail = emailToValidate;
+       let defaultTestimonial = document.getElementById("defaultTestimonial");
+       nameToValidate.innerHTML = validatedName;
+       messageToValidate.innerHTML = validatedMessage;
+       emailToValidate.innerHTML = validatedEmail;
+       defaultTestimonial.innerHTML = "";
     }
 form.addEventListener("submit", validateAndDisplay);
 }
