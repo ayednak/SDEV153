@@ -7,7 +7,6 @@ function validateAndDisplay(event) {
     let emailToValidate = document.getElementById("email").value;
     alert("Email to Validate is "+ emailToValidate);
     let emailValidationRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    alert("Email Validation Regex is "+ emailValidationRegex);
     
     if (nameToValidate.length == 0) {
         event.preventDefault();
@@ -31,13 +30,13 @@ function validateAndDisplay(event) {
     }
     else {
         event.preventDefault();
-        alert("Function validated input fields")
+        alert("Function validated input fields");
         let validatedName = nameToValidate;
         alert("Validated Name is "+ validatedName);
         let validatedTestimonial = messageToValidate;
         alert("Validated Testimonial is "+ validatedTestimonial);
         let outputName = document.getElementById("inputName");
-        alert("Output Name is "+ ouputName);
+        alert("Output Name is "+ outputName);
         let outputTestimonial = document.getElementById("inputTestimonial");
         alert("Output Testimonial is "+ outputTestimonial);
         let defaultTestimonial = document.getElementById("defaultTestimonial");
