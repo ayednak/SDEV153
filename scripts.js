@@ -1,11 +1,7 @@
-
-    
 function validateAndDisplay(event) {
-    let form = document.getElementById("testimonialForm");
-    let output = document.getElementById("saved-testimonials")
-    let nameToValidate = form.name.value;
-    let messageToValidate = form.testimonal.value;
-    let emailToValidate = form.email.value;
+    let nameToValidate = document.getElementById("name").value;
+    let messageToValidate = document.getElementById("testimonial").value;
+    let emailToValidate = document.getElementById("email").value;
     let emailValidationRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (nameToValidate.length < 2) {
         event.preventDefault();
@@ -23,12 +19,9 @@ function validateAndDisplay(event) {
         let validatedName = nameToValidate;
         let validatedMessage = messageToValidate;
         
-
-        output.defaultTestimonial.textContent = ""
-        output.inputName.textContent = validatedName;
-        output.inputTestimonial.textContent = validatedMessage;  
-    
+        document.getVariableById("defaultTestimonial").textContent = "";
+        document.getVariableById("inputName").textContent = validatedName;
+        document.getVariableById("inputTestimonial").textContent = validatedMessage; 
     }
-
 form.addEventListener("submit", validateAndDisplay);
 }
