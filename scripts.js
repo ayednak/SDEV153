@@ -1,1 +1,1 @@
-console.log("This popup indicates the HTML successfully called the JavaScript file.");
+alert("This popup indicates the HTML successfully called the JavaScript file.");
