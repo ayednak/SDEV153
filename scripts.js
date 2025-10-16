@@ -1,7 +1,7 @@
 let form = document.getElementById("testimonialForm");
-let nameToValidate = document.getElementById("name");
-let messageToValidate = document.getElementById("testimonial");
-let emailToValidate = document.getElementById("email");
+let nameToValidate = document.getElementById("name").value;
+let messageToValidate = document.getElementById("testimonial").value;
+let emailToValidate = document.getElementById("email").value;
 let emailValidationRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     
@@ -19,7 +19,7 @@ function validateAndDisplay(event) {
         return alert("Invalid email address format.");
     }
     else {
-        let validatedName = form.name.value;
+        let validatedName = document.getElementById("name").value;
         let validatedMessage = form.testimonial.value;
 
         document.getElementById("inputName").textContent = form.inputName.textinput = validatedName;
