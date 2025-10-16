@@ -1,6 +1,8 @@
 function validateAndDisplay(event) {
     let nameToValidate = document.getElementById("name").value;
+    alert(nameToValidate);
     let messageToValidate = document.getElementById("testimonial").value;
+    alert
     let emailToValidate = document.getElementById("email").value;
     let emailValidationRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (nameToValidate.length < 2) {
@@ -27,6 +29,11 @@ function validateAndDisplay(event) {
        outputTestimonial.textContent = validatedTestimonial;
        defaultTestimonial.textContent = "";
     }
+
+function functionTest(event) {
+    alert("Event listener successfully called function!");
+}
 let form = document.getElementById("testimonialForm");
+form.addEventListener("submit", functionTest);
 form.addEventListener("submit", validateAndDisplay);
 }
