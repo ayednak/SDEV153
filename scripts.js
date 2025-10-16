@@ -22,9 +22,9 @@ function validateAndDisplay(event) {
         let validatedName = form.name.value;
         let validatedMessage = form.testimonial.value;
 
-        form.inputName.textContent = validatedName;
-        form.inputTestimonial.textContent = validatedMessage;
-        form.defaultTestimonial.textContent = "";
+        document.getElementById("inputName").textContent = form.inputName.textinput = validatedName;
+        form.inputTestimonial.value = validatedMessage;
+        form.defaultTestimonial.value = "";
     }
 
 form.addEventListener("submit", validateAndDisplay);
