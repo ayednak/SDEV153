@@ -1,10 +1,8 @@
-let form = document.getElementById("testimonialForm");
-let output = document.getElementById("saved-testimonials")
-console.log(form.name.value);
-console.log(form.testimonal.value);
-console.log(form.email.value);
+
     
 function validateAndDisplay(event) {
+    let form = document.getElementById("testimonialForm");
+    let output = document.getElementById("saved-testimonials")
     let nameToValidate = form.name.value;
     let messageToValidate = form.testimonal.value;
     let emailToValidate = form.email.value;
@@ -22,10 +20,9 @@ function validateAndDisplay(event) {
         return alert("Invalid email address format.");
     }
     else {
-        console.log("Inputs passed validation");
         let validatedName = nameToValidate;
         let validatedMessage = messageToValidate;
-        console.log("Name: " + validatedName + "\nMessage: " + validatedMessage);
+        
 
         output.defaultTestimonial.textContent = ""
         output.inputName.textContent = validatedName;
