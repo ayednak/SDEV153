@@ -1,11 +1,12 @@
 let form = document.getElementById("testimonialForm");
-let nameToValidate = document.getElementById("name").value;
-let messageToValidate = document.getElementById("testimonial").value;
-let emailToValidate = document.getElementById("email").value;
-let emailValidationRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 
     
 function validateAndDisplay(event) {
+    let nameToValidate = document.getElementById("name").value;
+    let messageToValidate = document.getElementById("testimonial").value;
+    let emailToValidate = document.getElementById("email").value;
+    let emailValidationRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (nameToValidate.length < 2) {
         event.preventDefault();
         return alert("Name must be at least 2 characters long.");
