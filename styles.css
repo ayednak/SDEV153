@@ -498,6 +498,7 @@ nav ul li a:hover {
   align-items: center;
   display: flex;
   flex-direction: column;
+  max-width: 28vw;
 }
 .testimonials form fieldset input[type="submit"] {
   font-weight: bold;
