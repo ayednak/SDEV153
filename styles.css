@@ -264,6 +264,15 @@ body {
 
 .index{
   flex-grow:1;
+  .banner-link {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    width:47.5vw;
+    height: 35vh;
+    border-radius: 0vw 5vw;
+    }
   .top-image-banner {
     display: flex;
     justify-content: center;
@@ -275,12 +284,6 @@ body {
     border-radius: 0vw 5vw;
     height: 35vh;
     width: 47.5vw;
-    a {
-      text-decoration: none;
-      width:47.5vw;
-      height: 35vh;
-      border-radius: 0vw 5vw;
-    }
   }
   .card-grid {
     display: grid;
