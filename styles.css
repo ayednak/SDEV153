@@ -200,7 +200,7 @@ nav ul li a:hover {
   flex-direction: column;
   height: 85vh;
 }  
-.contact h1 {
+.contact h2 {
   color: white;
   font-size: clamp(2rem, 3vw + 1rem, 4rem);
   margin: 0;
