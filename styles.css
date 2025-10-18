@@ -113,77 +113,81 @@ nav ul li a:hover {
   padding: 2vw;
   border: solid cyan;
   border-radius: 0 5vw;
-  img {
-    display: flex;
-    margin: auto;
-    border-radius: 2vw;
-  }
-  h1 {
-    color: white;
-    font-size: clamp(2rem, 3vw + 1rem, 4rem);
-    margin: auto;
-    text-align:center;
-  }
-  p {
-   color: white;
-    font-size: clamp(1rem, 1.5vw + .5rem, 2rem);
-    margin: auto;
-    text-align:center; 
-  }
 }
+.about img {
+  display: flex;
+  margin: auto;
+  border-radius: 2vw;
+}
+.about h1 {
+  color: white;
+  font-size: clamp(2rem, 3vw + 1rem, 4rem);
+  margin: auto;
+  text-align:center;
+}
+.about p {
+  color: white;
+  font-size: clamp(1rem, 1.5vw + .5rem, 2rem);
+  margin: auto;
+  text-align:center; 
+}
+
+
 
 .certifications {
   flex-grow:1;
-  h1 {
-    color: white;
-    font-size: clamp(2rem, 3vw + 1rem, 4rem);
-    margin: auto;
-    text-align:center;
-  }
-  .cert-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 20px;
-    max-width:98vw;
-    margin: 0 auto;
-    margin-top: 1.5rem;
-    a {
-      text-decoration: none;
-      color: black;
-    }
-    .card {
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      box-shadow: 0 .25rem .5rem 0 rgba(255,255,255,1);
-      transition: 0.3s;
-      border: solid cyan;
-      border-radius: 0vw 5vw;
-      background-image: linear-gradient(cyan, white);
-      height: 100%;
-      img { 
-        width: 100%;
-        height: 95%;
-        object-fit: cover;
-      }
-      h4 {
-        font-size: 1.5rem;
-        display: inline-flex;
-        justify-content: center;
-        margin-top: 0;
-        text-align:center;
-      }
-    } 
-    .card:hover {
-      box-shadow: 0 .5rem 1rem 0 cyan;
-      transform: translateY(-1vw);    
-      h4 {
-        background-color: black;
-        color: cyan;
-      }
-    }
-  }
 }
+.certifications h1 {
+  color: white;
+  font-size: clamp(2rem, 3vw + 1rem, 4rem);
+  margin: auto;
+  text-align:center;
+}
+.certifications .cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+  max-width:98vw;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+.certifications .cert-grid a {
+  text-decoration: none;
+  color: black;
+}
+.certifications .cert-grid .card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 .25rem .5rem 0 rgba(255,255,255,1);
+  transition: 0.3s;
+  border: solid cyan;
+  border-radius: 0vw 5vw;
+  background-image: linear-gradient(cyan, white);
+  height: 100%;
+}
+.certifications .cert-grid .card img { 
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+.certifications .cer-grid .card h4 {
+  font-size: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 0;
+  text-align:center;
+}
+.certifications .cert-grid .card:hover {
+      box-shadow: 0 .5rem 1rem 0 cyan;
+      transform: translateY(-1vw);
+}    
+.certifications .cert-grid .card:hover h4 {
+  background-color: black;
+  color: cyan;
+}
+
+
 
 .contact {
   flex-grow:1;
