@@ -337,6 +337,13 @@ nav ul li a:hover {
   transform: translateY(-1vw);
 }    
 .index .card-grid .card h3 {
+  font-size: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 0;
+  text-align: center;
+}
+.index .card-grid .card:hover h3 {
   background-color: black;
   color: cyan;
 }
