@@ -27,12 +27,13 @@ function validateAndDisplay(event) {
     }
     else {
         event.preventDefault();
+        this.reset();
         let validatedName = nameToValidate;
         let validatedTestimonial = messageToValidate;
         let outputName = document.getElementById("inputName");
         let outputTestimonial = document.getElementById("inputTestimonial");
         let defaultTestimonial = document.getElementById("defaultTestimonial");
-      
+        console.log("Thanks, " + validatedName + " Your testimonial was submitted successfully!");
         outputName.textContent = validatedName;
         outputTestimonial.textContent = validatedTestimonial;
         defaultTestimonial.textContent = "";
@@ -40,7 +41,5 @@ function validateAndDisplay(event) {
 }
 let form = document.getElementById("testimonialForm");
 form.addEventListener("submit", validateAndDisplay);
-form.addEventListener("submit", function(event) {
-    this.reset();
-})
+
 
