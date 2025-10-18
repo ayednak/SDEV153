@@ -171,7 +171,7 @@ nav ul li a:hover {
   height: 95%;
   object-fit: cover;
 }
-.certifications .cer-grid .card h4 {
+.certifications .cert-grid .card h4 {
   font-size: 1.5rem;
   display: inline-flex;
   justify-content: center;
@@ -198,42 +198,44 @@ nav ul li a:hover {
   margin: auto;
   display: flex;
   flex-direction: column;
-  height: 85vh;  
-    h1 {
-      color: white;
-      font-size: clamp(2rem, 3vw + 1rem, 4rem);
-      margin: 0;
-    }
-    p {
-      font-size:clamp(1rem, 1.2vw, 3rem);
-      color: white;
-      display: block;
-      border: solid white;
-      border-radius: 1vw;
-      width: 14vw;
-      margin: auto;
-      margin-bottom: 1vw;
-      padding: .25vw              
-    }  
-    p:hover {
-      box-shadow: 0 .1rem .25rem 0 cyan;
-    }
-    a {
-      text-decoration: none;
-      color: white;
-      display: block;
-      margin: auto;
-      width: 14vw;
-      font-size:clamp(.25rem, 1.2vw, 3rem);
-        :hover {
-          color: cyan;    
-        }
-        img {
-          margin: 1vw 0vw;
-          width: 14vw;
-        }            
-    }    
+  height: 85vh;
+}  
+.contact h1 {
+  color: white;
+  font-size: clamp(2rem, 3vw + 1rem, 4rem);
+  margin: 0;
 }
+.contact p {
+  font-size:clamp(1rem, 1.2vw, 3rem);
+  color: white;
+  display: block;
+  border: solid white;
+  border-radius: 1vw;
+  width: 14vw;
+  margin: auto;
+  margin-bottom: 1vw;
+  padding: .25vw              
+}  
+.contact p:hover {
+  box-shadow: 0 .1rem .25rem 0 cyan;
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: auto;
+  width: 14vw;
+  font-size:clamp(.25rem, 1.2vw, 3rem);
+}
+.contact a :hover {
+  color: cyan;    
+}
+.contact a img {
+  margin: 1vw 0vw;
+  width: 14vw;
+}            
+    
+
 
 .education {
   flex-grow:1;
@@ -274,76 +276,78 @@ nav ul li a:hover {
 
 .index{
   flex-grow:1;
-  .banner-link {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    text-decoration: none;
-    width:47.5vw;
-    height: 35vh;
-    border-radius: 0vw 5vw;
-    }
-  .top-image-banner {
-    display: flex;
-    justify-content: center;
-    background-image: url("Engage.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: auto;
-    border: solid cyan;
-    border-radius: 0vw 5vw;
-    height: 35vh;
-    width: 47.5vw;
-  }
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 20px;
-    max-width:98vw;
-    margin: 0 auto;
-    margin-top: 1.5rem;
-    a {
-      text-decoration: none;
-      color: black;
-    }
-    .card {
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      box-shadow: 0 .25rem .5rem 0 rgba(255,255,255,1);
-      transition: 0.3s;
-      border: solid cyan;
-      border-radius: 0vw 5vw;
-      background-image: linear-gradient(cyan, white);
-      height: 100%;
-      img { 
-        width: 100%;
-        height: 95%;
-        object-fit: cover;
-      }
-      h3 {
-        font-size: 1.5rem;
-        display: inline-flex;
-        justify-content: center;
-        margin-top: 0;
-      }
-    } 
-    @media screen and (max-width:768) {
-      .card {
-        width: 45%;
-        height: 45%;
-      }
-    } 
-    .card:hover {
-      box-shadow: 0 .5rem 1rem 0 cyan;
-      transform: translateY(-1vw);    
-      h3 {
-        background-color: black;
-        color: cyan;
-      }
-    }
-  }
 }
+.index .banner-link {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-decoration: none;
+  width:47.5vw;
+  height: 35vh;
+  border-radius: 0vw 5vw;
+}
+.index .top-image-banner {
+  display: flex;
+  justify-content: center;
+  background-image: url("Engage.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  border: solid cyan;
+  border-radius: 0vw 5vw;
+  height: 35vh;
+  width: 47.5vw;
+}
+.index .card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+  max-width:98vw;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+.index .card-grid a {
+  text-decoration: none;
+  color: black;
+}
+.index .card-grid .card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 .25rem .5rem 0 rgba(255,255,255,1);
+  transition: 0.3s;
+  border: solid cyan;
+  border-radius: 0vw 5vw;
+  background-image: linear-gradient(cyan, white);
+  height: 100%;
+}
+.index .card-grid .card img { 
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+.index .card-grid .card h3 {
+  font-size: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.index .card-grid .card:hover {
+  box-shadow: 0 .5rem 1rem 0 cyan;
+  transform: translateY(-1vw);
+}    
+.index .card-grid .card h3 {
+  background-color: black;
+  color: cyan;
+}
+@media screen and (max-width:768) {
+  .index .card-grid .card {
+    width: 45%;
+    height: 45%;
+  }
+} 
+
+
 
 .news {
   flex-grow:1;
