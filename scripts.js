@@ -33,7 +33,7 @@ function validateAndDisplay(event) {
         let outputName = document.getElementById("inputName");
         let outputTestimonial = document.getElementById("inputTestimonial");
         let defaultTestimonial = document.getElementById("defaultTestimonial");
-        console.log("Thanks, " + validatedName + " Your testimonial was submitted successfully!");
+        alert("Thanks, " + validatedName + " Your testimonial was submitted successfully!");
         outputName.textContent = validatedName;
         outputTestimonial.textContent = validatedTestimonial;
         defaultTestimonial.textContent = "";
