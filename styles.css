@@ -245,34 +245,36 @@ nav ul li a:hover {
   padding: 2vw;
   border: solid cyan;
   border-radius: 0 5vw;
-  h1 {
-    color: white;
-    font-size: clamp(2rem, 3vw + 1rem, 4rem);
-    margin: auto;
-    text-align:center;
-  }
-  h2 {
-    margin: 1vw 0 0 0;
-    padding: 0;
-    color:white;
-    font-size: clamp(1rem, 1.2vw + .5rem, 2rem); 
-  }
-  table {
-    width:100%;
-    overflow:scroll;  
-  }
-  table, th, td{
-    border: 1px solid cyan;
-    border-collapse: collapse;
-    padding: 5px;
-    text-align: center
-  }
-  img {
-    display: block;
-    width:100%;
-    height: auto;
-  }
 }
+.education h1 {
+  color: white;
+  font-size: clamp(2rem, 3vw + 1rem, 4rem);
+  margin: auto;
+  text-align:center;
+}
+.education h2 {
+  margin: 1vw 0 0 0;
+  padding: 0;
+  color:white;
+  font-size: clamp(1rem, 1.2vw + .5rem, 2rem); 
+}
+.education table {
+  width:100%;
+  overflow:scroll;  
+}
+.education table, th, td{
+  border: 1px solid cyan;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+.education img {
+  display: block;
+  width:100%;
+  height: auto;
+}
+
+
 
 .index{
   flex-grow:1;
