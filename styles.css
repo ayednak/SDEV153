@@ -349,12 +349,6 @@ nav ul li a:hover {
   background-color: black;
   color: cyan;
 }
-@media screen and (max-width:768) {
-  .index .card-grid .card {
-    width: 45%;
-    height: 45%;
-  }
-} 
 
 
 
@@ -399,7 +393,18 @@ nav ul li a:hover {
   border: solid cyan;
   border-radius: 0 5vw;
 }
-
+.portfolio h2 {
+  color: white;
+  font-size: clamp(2rem, 3vw + 1rem, 4rem);
+  margin: auto;
+  text-align:center;
+}
+.portfolio p {
+  color: white;
+  font-size: clamp(1rem, 1.5vw + .5rem, 2rem);
+  margin: auto;
+  text-align:center; 
+}
 
 
 .projects {
@@ -410,6 +415,18 @@ nav ul li a:hover {
   padding: 2vw;
   border: solid cyan;
   border-radius: 0 5vw;
+}
+.projects h2 {
+  color: white;
+  font-size: clamp(2rem, 3vw + 1rem, 4rem);
+  margin: auto;
+  text-align:center;
+}
+.projects p {
+  color: white;
+  font-size: clamp(1rem, 1.5vw + .5rem, 2rem);
+  margin: auto;
+  text-align:center; 
 }
 
 
