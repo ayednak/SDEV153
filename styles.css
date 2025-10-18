@@ -277,6 +277,9 @@ body {
     width: 47.5vw;
     a {
       text-decoration: none;
+      width:47.5vw;
+      height: 35vh;
+      border-radius: 0vw 5vw;
     }
   }
   .card-grid {
