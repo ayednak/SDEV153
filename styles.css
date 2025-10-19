@@ -254,13 +254,13 @@ nav ul li a:hover {
   border: solid cyan;
   border-radius: 0 5vw;
 }
-.education h1 {
+.education h2 {
   color: white;
   font-size: clamp(2rem, 3vw + 1rem, 4rem);
   margin: auto;
   text-align:center;
 }
-.education h2 {
+.education h3 {
   margin: 1vw 0 0 0;
   padding: 0;
   color:white;
@@ -370,14 +370,14 @@ nav ul li a:hover {
   border-radius: 0 5vw;
   max-width: 30vw;
 }
-.news h1 {
+.news h2 {
   margin: 0 auto;
   padding: 0;
   color:white;
   font-size: clamp(2rem, 3vw + 1rem, 4rem);
   text-align: center;
 }
-.news h2 {
+.news h3 {
   margin: 0;
   padding: 0;
   color:white;
