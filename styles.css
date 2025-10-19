@@ -179,7 +179,7 @@ nav ul li a:hover {
   height: 95%;
   object-fit: cover;
 }
-.certifications .cert-grid .card h4 {
+.certifications .cert-grid .card h3 {
   font-size: 1.5rem;
   display: inline-flex;
   justify-content: center;
@@ -190,7 +190,7 @@ nav ul li a:hover {
       box-shadow: 0 .5rem 1rem 0 cyan;
       transform: translateY(-1vw);
 }    
-.certifications .cert-grid .card:hover h4 {
+.certifications .cert-grid .card:hover h3 {
   background-color: black;
   color: cyan;
 }
