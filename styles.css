@@ -456,7 +456,7 @@ nav ul li a:hover {
 }
 .resume h3 {
   font-size:clamp(1rem, 1.5vw + .5rem, 2rem);
-  margin: 1vh;
+  margin-bottom: 1vh;
 }
 .resume h4 {
   font-size:clamp(1rem, 1vw + .15rem, 1.5rem);
